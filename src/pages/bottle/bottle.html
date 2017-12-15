@@ -1,14 +1,29 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title text-center >笔芯</ion-title>
-  </ion-navbar>
-</ion-header>
+    <ion-navbar>
+      <ion-title text-center>
+        笔芯
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
 
-<ion-content padding>
-  <ion-list >
-    <ion-item *ngFor="let battle of bottles">
-      <h2>1{{battle}}</h2>
-    </ion-item>
-  </ion-list>
+  <ion-content padding>
+    <ion-card>
+      <ion-row>
+        <ion-col >
+          一片区域
+        </ion-col>
+      </ion-row>
+      </ion-card>
 
-</ion-content>
+     <ion-row>
+        <ion-col col-4>
+            <button ion-button color="light">捞瓶子</button>
+        </ion-col>
+        <ion-col col-4>
+            <button ion-button color="light">丢瓶子</button>
+          </ion-col>
+          <ion-col col-4>
+              <button ion-button color="light">我的瓶子</button>
+          </ion-col>
+      </ion-row>
+  </ion-content>
